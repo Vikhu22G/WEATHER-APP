@@ -16,7 +16,7 @@ locationBtn.addEventListener('click', () => {
 });
 
 async function getWeather(city) {
-    const apiKey = '7acd5855bc3eb903f12c19880cccf4e7';
+    const apiKey = 'apiKey';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     const response = await fetch(url);
     const data = await response.json();
@@ -24,7 +24,7 @@ async function getWeather(city) {
 }
 
 async function getWeatherByCoords(latitude, longitude) {
-    const apiKey = '7acd5855bc3eb903f12c19880cccf4e7';
+    const apiKey = 'apiKey';
     const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
     const response = await fetch(url);
     const data = await response.json();
