@@ -6,11 +6,10 @@ This is a basic weather description project that allows you to get weather updat
 Clone this project to your local system by getting the zip file.
 
 2. Get OpenWeatherMap API Key
-Visit OpenWeatherMap and sign up for a free account to obtain an API key.
+Visit https://openweathermap.org/ and sign up for a free account to obtain an API key.
 
 3. Update API Key in app.js
-Copy your API key and paste it in the url section in the script.js file, replacing 'YOUR_API_KEY' with your actual API key.
-const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+Copy your API key and paste it in the url section in the script.js file, replacing 'apiKey' with your actual API Key.
 
 4. Run the Project
 Ensure you have a live server installed. Run the project via live server.
